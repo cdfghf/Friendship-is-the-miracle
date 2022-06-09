@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <a href="index.html"><li>Главная</li></a>
-    <a href="Katalog.html"><li>Каталог</li></a>
-    <a href="Reg.html"><li>Регистрация</li></a>
-    <hr>
-    <h1>Регистрация на сайте</h1>
+    <div class="wrapper">
+        <div class="content">
+            <div class="menu">
+                <ul>
+                    <a href="index.html">
+                        <li>Главная</li>
+                    </a>
+                    <a href="Katalog.html">
+                        <li>Каталог</li>
+                    </a>
+                    <a href="Reg.html">
+                        <li>Регистрация</li>
+                    </a>
+                </ul>
+                <hr>
+                <h1>Регистрация на сайте</h1>
+                <div class="content_page">
+                    <form action="#">
+                        ФИО<input id="name" type="text">
+                        Логин<input type="text">
+                        Пароль<input id="password" type="password">
+                        Почта<input type="email">
+                        <input class="button" type="submit">
+                        <input class="button" type="reset">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            подвал
+        </footer>
+    </div>
+    <script src = "script.js">
+        
+
+    </script>
 </body>
+
 </html>
